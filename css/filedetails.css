@@ -1,0 +1,90 @@
+@import url("color.css");
+
+body {
+    color:black;
+    background-color: var(--primarycolor);
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+    
+  }
+  /* div::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  div::-webkit-scrollbar-thumb {
+    background-color: whitesmoke;
+    outline: 1px solid slategrey;
+  } */
+h2{
+    margin-left: 45%;
+}
+#header{
+  margin-top: 1%;
+}
+  /* loader */
+  .lds-ring {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 45%;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+a:active,a:hover, a:link, a:visited{
+  color: white;
+}
+div.scroll {
+  background-color: #fed9ff;
+  width: 60%;
+  height: 65%;
+  overflow-x:hidden;
+  overflow-y: scroll;
+  text-align: center;
+  padding: 20px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.save{
+  margin-left: 45%;
+  margin-top: 1%;
+  background-color: aliceblue;
+  color: black;
+}
